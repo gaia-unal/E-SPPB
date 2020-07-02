@@ -18,9 +18,8 @@ Mapa Caldas
 {{-- <div id="user_data" data-user=@json($aspD)></div> --}}
 
 
-
-<button class='flotante' title="Opciones" id="flotante" onclick="menuMap()">
-    <i class="fas fa-fw fa-cog rotate"> </i>
+<button class='flotante'  title="Opciones" id="flotante" onclick="menuMap()">
+    <i class="fas fa-fw fa-cog rotate" style="margin-bottom:10px;" > </i>
 </button>
 
 {{-- {{$patients}} --}}
