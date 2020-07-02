@@ -3,7 +3,6 @@
         position: relative;
         width: 100%;
         height: 650px;
-        /*left: 0%;*/
         border: 1px solid gray;
     }
 </style>
