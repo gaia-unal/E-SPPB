@@ -3,7 +3,7 @@
 
 <div class="mb-4" style="border-radius: 10px 10px; padding: 10px; background-color:royalblue; color: white;">
     <h2 class="h4 mb-2" style="font-weight: bold">Consulta Personalizada</h2>
-    A continuación puede ingresar su consulta de tipo SELECT para realizar la busqueda
+    A continuación puede ingresar su consulta de tipo SELECT para realizar una busqueda
     directamente en la base de datos.
 </div>
 

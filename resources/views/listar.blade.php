@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="sidebar-brand-text mx-0" style="padding-left: 11px;">
-                    <img src="/img/logoMain2.png" alt="Logo App" style="width: 200px">
+                    <img src={{asset("/img/logoMain2.png")}} alt="Logo App" style="width: 200px">
                 </div>
             </a>
 

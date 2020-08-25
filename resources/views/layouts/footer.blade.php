@@ -10,11 +10,11 @@
                 alt="GAIA"></a>
         <a href="http://geriatriaygerontologia.edu.co/" target="_blank"><img class="logo5 logos" src={{asset("/img/logo_geron.png")}}
                 alt="Grupo de Investigación en Gerontología y Geriatría"></a>
-        <a href="https://www.colciencias.gov.co" target="_blank"><img class="logo4 logos"
-                src={{asset("/img/logo_colciencias2.png")}} alt="COLCIENCIAS"></a>
+        <a href="https://minciencias.gov.co/" target="_blank"><img class="logo4 logos"
+                src={{asset("/img/logo_colciencias2.png")}} alt="Minciencias"></a>
 
         <!-- <hr style="border-color:white;"> -->
-        <div>Última Actualización: 22/02/2020</div>
+        <div>Última Actualización: 24/08/2020</div>
         <div class="copyright text-center my-auto">
             <span>&copy; {{ date('Y') }} E-SPPB+. @lang('Todos los derechos reservados.')</span>
         </div>

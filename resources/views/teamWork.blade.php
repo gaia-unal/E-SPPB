@@ -36,7 +36,7 @@
         Camilo Alejandro Castillo Benavides<br>
         David Insuasti Ceballos<br>
         Jennifer Jaramillo Losada<br>
-        Julián Arnol León Garcia<br>
+        Julián Arnoby León Garcia<br>
         Manuel Alejandro Pérez Trujillo<br>
         Luís Felipe García Arias<br><br>
 
@@ -48,6 +48,7 @@
         José Fernando Gómez Montes<br>
         Diógenes de Jesús Ramírez<br><br>
         Universidad Nacional de Colombia sede Manizales - Unidad de Servicios de Salud<br>
+        Universidad de Caldas - Facultad de Ciencias para la Salud - Laboratorio de Envejecimiento <br>
 
         Dirección Territorial de Salud de Caldas<br>
 

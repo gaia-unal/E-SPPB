@@ -29,5 +29,9 @@ de um dispositivo eletrônico para a avaliação do alcance funcional em idosos.
 <b>SABI 2020:</b> Modelo de identificación de requerimientos para desarrollar interfaces en
 dispositivos médicos para valorar la ejecución física. (Montevideo, 2020).
 </p>
+<p>
+<b>I Simposio Nacional Actividad Física para la Salud:</b>problemas actuales (Manizales, 2020).
+<a href="https://www.youtube.com/watch?v=PenjHC5tcl0" target="_blank">https://www.youtube.com/watch?v=PenjHC5tcl0</a>
+</p>
 
 </div>

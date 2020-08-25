@@ -205,141 +205,141 @@
     plotOptions: {series: {borderWidth: 0,dataLabels: {enabled: true,format: '{point.z:.1f}%'}}},tooltip: {
     headerFormat: '',pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.z: .1f}%</b><br/>'},series: [{name: "Ciudades",
-    colorByPoint: true,data: [{name: "Filadelfia",y: totales[0],z:totales[0]/sumT*100,drilldown: "Filadelfia"},{
-    name: "La Merced",y: totales[1],z:totales[1]/sumT*100,drilldown: "La Merced"},{
+    colorByPoint: true,data: [{name: "Filadelfia",color: '#2f54b4',y: totales[0],z:totales[0]/sumT*100,drilldown: "Filadelfia"},{
+    name: "La Merced",color: '#2f54b4',y: totales[1],z:totales[1]/sumT*100,drilldown: "La Merced"},{
     name: "Marmato",y: totales[2],z:totales[2]/sumT*100,drilldown: "Marmato"},{
-    name: "Riosucio",y: totales[3],z:totales[3]/sumT*100,drilldown: "Riosucio"},{
-    name: "Supía",y: totales[4],z:totales[4]/sumT*100,drilldown: "Supía"},{
-    name: "Manzanares",y: totales[5],z:totales[5]/sumT*100,drilldown: "Manzanares"},{
-    name: "Marquetalia",y: totales[6],z:totales[6]/sumT*100,drilldown: "Marquetalia"},{
-    name: "Marulanda",y: totales[7],z:totales[7]/sumT*100,drilldown: "Marulanda"},{
-    name: "Pensilvania",y: totales[8],z:totales[8]/sumT*100,drilldown: "Pensilvania"},{
-    name: "Anserma",y: totales[9],z:totales[9]/sumT*100,drilldown: "Anserma"},{
-    name: "Belalcázar",y: totales[10],z:totales[10]/sumT*100,drilldown: "Belalcázar"},{
-    name: "Risaralda",y: totales[11],z:totales[11]/sumT*100,drilldown: "Risaralda"},{
-    name: "San José",y: totales[12],z:totales[12]/sumT*100,drilldown: "San José"},{
-    name: "Viterbo",y: totales[13],z:totales[13]/sumT*100,drilldown: "Viterbo"},{
-    name: "Chinchiná",y: totales[14],z:totales[14]/sumT*100,drilldown: "Chinchiná"},{
-    name: "Manizales",y: totales[15],z:totales[15]/sumT*100,drilldown: "Manizales"},{
-    name: "Neira",y: totales[16],z:totales[16]/sumT*100, drilldown: "Neira"},{
-    name: "Palestina",y: totales[17],z:totales[17]/sumT*100,drilldown: "Palestina"},{
-    name: "Villamaría",y: totales[18],z:totales[18]/sumT*100,drilldown: "Villamaría"},{
-    name: "La Dorada",y: totales[19],z:totales[19]/sumT*100,drilldown: "La Dorada"},{
-    name: "Norcasia",y: totales[20],z:totales[20]/sumT*100,drilldown: "Norcasia"},{
-    name: "Samaná",y: totales[21],z:totales[21]/sumT*100,drilldown: "Samaná"},{
-    name: "Victoria",y: totales[22],z:totales[22]/sumT*100,drilldown: "Victoria"},{
-    name: "Aguadas",y: totales[23],z:totales[23]/sumT*100,drilldown: "Aguadas"},{
-    name: "Aranzazu",y: totales[24],z:totales[24]/sumT*100,drilldown: "Aranzazu"},{
-    name: "Pácora",y: totales[25],z:totales[25]/sumT*100,drilldown: "Pácora"},{
-    name: "Salamina",y: totales[26],z:totales[26]/sumT*100,drilldown: "Salamina"}]}],
+    name: "Riosucio",color: '#2f54b4',y: totales[3],z:totales[3]/sumT*100,drilldown: "Riosucio"},{
+    name: "Supía",color: '#2f54b4',y: totales[4],z:totales[4]/sumT*100,drilldown: "Supía"},{
+    name: "Manzanares",color: '#2f54b4',y: totales[5],z:totales[5]/sumT*100,drilldown: "Manzanares"},{
+    name: "Marquetalia",color: '#2f54b4',y: totales[6],z:totales[6]/sumT*100,drilldown: "Marquetalia"},{
+    name: "Marulanda",color: '#2f54b4',y: totales[7],z:totales[7]/sumT*100,drilldown: "Marulanda"},{
+    name: "Pensilvania",color: '#2f54b4',y: totales[8],z:totales[8]/sumT*100,drilldown: "Pensilvania"},{
+    name: "Anserma",color: '#2f54b4',y: totales[9],z:totales[9]/sumT*100,drilldown: "Anserma"},{
+    name: "Belalcázar",color: '#2f54b4',y: totales[10],z:totales[10]/sumT*100,drilldown: "Belalcázar"},{
+    name: "Risaralda",color: '#2f54b4',y: totales[11],z:totales[11]/sumT*100,drilldown: "Risaralda"},{
+    name: "San José",color: '#2f54b4',y: totales[12],z:totales[12]/sumT*100,drilldown: "San José"},{
+    name: "Viterbo",color: '#2f54b4',y: totales[13],z:totales[13]/sumT*100,drilldown: "Viterbo"},{
+    name: "Chinchiná",color: '#2f54b4',y: totales[14],z:totales[14]/sumT*100,drilldown: "Chinchiná"},{
+    name: "Manizales",color: '#2f54b4',y: totales[15],z:totales[15]/sumT*100,drilldown: "Manizales"},{
+    name: "Neira",color: '#2f54b4',y: totales[16],z:totales[16]/sumT*100, drilldown: "Neira"},{
+    name: "Palestina",color: '#2f54b4',y: totales[17],z:totales[17]/sumT*100,drilldown: "Palestina"},{
+    name: "Villamaría",color: '#2f54b4',y: totales[18],z:totales[18]/sumT*100,drilldown: "Villamaría"},{
+    name: "La Dorada",color: '#2f54b4',y: totales[19],z:totales[19]/sumT*100,drilldown: "La Dorada"},{
+    name: "Norcasia",color: '#2f54b4',y: totales[20],z:totales[20]/sumT*100,drilldown: "Norcasia"},{
+    name: "Samaná",color: '#2f54b4',y: totales[21],z:totales[21]/sumT*100,drilldown: "Samaná"},{
+    name: "Victoria",color: '#2f54b4',y: totales[22],z:totales[22]/sumT*100,drilldown: "Victoria"},{
+    name: "Aguadas",color: '#2f54b4',y: totales[23],z:totales[23]/sumT*100,drilldown: "Aguadas"},{
+    name: "Aranzazu",color: '#2f54b4',y: totales[24],z:totales[24]/sumT*100,drilldown: "Aranzazu"},{
+    name: "Pácora",color: '#2f54b4',y: totales[25],z:totales[25]/sumT*100,drilldown: "Pácora"},{
+    name: "Salamina",color: '#2f54b4',y: totales[26],z:totales[26]/sumT*100,drilldown: "Salamina"}]}],
     drilldown: {series: [{id: 'Filadelfia',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[0][0],z:ciudades[0][0]/totales[0]*100,color: '#54D6D6',drilldown: "PrevejezF"},
-    {name: "Vejez (65-79 años)",y: ciudades[0][1],z:ciudades[0][1]/totales[0]*100,color: '#F0C049',drilldown: "VejezF"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[0][2],z:ciudades[0][2]/totales[0]*100,color: '#F04971',drilldown: "AncianidadF"}
+    {name: "Prevejez (55-64 años)",y: ciudades[0][0],z:ciudades[0][0]/totales[0]*100,color: '#466fda',drilldown: "PrevejezF"},
+    {name: "Vejez (65-79 años)",y: ciudades[0][1],z:ciudades[0][1]/totales[0]*100,color: '#1e4fd1',drilldown: "VejezF"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[0][2],z:ciudades[0][2]/totales[0]*100,color: '#103bae',drilldown: "AncianidadF"}
     ]}, {id: 'La Merced',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[1][0],z:ciudades[1][0]/totales[1]*100,color: '#54D6D6',drilldown: "PrevejezLM"},
-    {name: "Vejez (65-79 años)",y: ciudades[1][1],z:ciudades[1][1]/totales[1]*100,color: '#F0C049',drilldown: "VejezLM"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[1][2],z:ciudades[1][2]/totales[1]*100,color: '#F04971',drilldown: "AncianidadLM"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[1][0],z:ciudades[1][0]/totales[1]*100,color: '#466fda',drilldown: "PrevejezLM"},
+    {name: "Vejez (65-79 años)",y: ciudades[1][1],z:ciudades[1][1]/totales[1]*100,color: '#1e4fd1',drilldown: "VejezLM"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[1][2],z:ciudades[1][2]/totales[1]*100,color: '#103bae',drilldown: "AncianidadLM"}]},{
     id: 'Marmato',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[2][0],z:ciudades[2][0]/totales[2]*100,color: '#54D6D6',drilldown: "PrevejezMAR"},
-    {name: "Vejez (65-79 años)",y: ciudades[2][1],z:ciudades[2][1]/totales[2]*100,color: '#F0C049',drilldown: "VejezMAR"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[2][2],z:ciudades[2][2]/totales[2]*100,color: '#F04971',drilldown: "AncianidadMAR"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[2][0],z:ciudades[2][0]/totales[2]*100,color: '#466fda',drilldown: "PrevejezMAR"},
+    {name: "Vejez (65-79 años)",y: ciudades[2][1],z:ciudades[2][1]/totales[2]*100,color: '#1e4fd1',drilldown: "VejezMAR"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[2][2],z:ciudades[2][2]/totales[2]*100,color: '#103bae',drilldown: "AncianidadMAR"}]},{
     id: 'Riosucio',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[3][0],z:ciudades[3][0]/totales[3]*100,color: '#54D6D6',drilldown: "PrevejezRIO"},
-    {name: "Vejez (65-79 años)",y: ciudades[3][1],z:ciudades[3][1]/totales[3]*100,color: '#F0C049',drilldown: "VejezRIO"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[3][2],z:ciudades[3][2]/totales[3]*100,color: '#F04971',drilldown: "AncianidadRIO"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[3][0],z:ciudades[3][0]/totales[3]*100,color: '#466fda',drilldown: "PrevejezRIO"},
+    {name: "Vejez (65-79 años)",y: ciudades[3][1],z:ciudades[3][1]/totales[3]*100,color: '#1e4fd1',drilldown: "VejezRIO"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[3][2],z:ciudades[3][2]/totales[3]*100,color: '#103bae',drilldown: "AncianidadRIO"}]},{
     id: 'SUPIA',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[4][0],z:ciudades[4][0]/totales[4]*100,color: '#54D6D6',drilldown: "PrevejezSU"},
-    {name: "Vejez (65-79 años)",y: ciudades[4][1],z:ciudades[4][1]/totales[4]*100,color: '#F0C049',drilldown: "VejezSU"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[4][2],z:ciudades[4][2]/totales[4]*100,color: '#F04971',drilldown: "AncianidadSU"}
+    {name: "Prevejez (55-64 años)",y: ciudades[4][0],z:ciudades[4][0]/totales[4]*100,color: '#466fda',drilldown: "PrevejezSU"},
+    {name: "Vejez (65-79 años)",y: ciudades[4][1],z:ciudades[4][1]/totales[4]*100,color: '#1e4fd1',drilldown: "VejezSU"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[4][2],z:ciudades[4][2]/totales[4]*100,color: '#103bae',drilldown: "AncianidadSU"}
     ]},{id: 'Manzanares',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[5][0],z:ciudades[5][0]/totales[5]*100,color: '#54D6D6',drilldown: "PrevejezMAN"},
-    {name: "Vejez (65-79 años)",y: ciudades[5][1],z:ciudades[5][1]/totales[5]*100,color: '#F0C049',drilldown: "VejezMAN"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[5][2],z:ciudades[5][2]/totales[5]*100,color: '#F04971',drilldown: "AncianidadMAN"}
+    {name: "Prevejez (55-64 años)",y: ciudades[5][0],z:ciudades[5][0]/totales[5]*100,color: '#466fda',drilldown: "PrevejezMAN"},
+    {name: "Vejez (65-79 años)",y: ciudades[5][1],z:ciudades[5][1]/totales[5]*100,color: '#1e4fd1',drilldown: "VejezMAN"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[5][2],z:ciudades[5][2]/totales[5]*100,color: '#103bae',drilldown: "AncianidadMAN"}
     ]},{id: 'Marquetalia',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[6][0],z:ciudades[6][0]/totales[6]*100,color: '#54D6D6',drilldown: "PrevejezMARQ"},
-    {name: "Vejez (65-79 años)",y: ciudades[6][1],z:ciudades[6][1]/totales[6]*100,color: '#F0C049',drilldown: "VejezMARQ"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[6][2],z:ciudades[6][2]/totales[6]*100,color: '#F04971',drilldown: "AncianidadMARQ"}
+    {name: "Prevejez (55-64 años)",y: ciudades[6][0],z:ciudades[6][0]/totales[6]*100,color: '#466fda',drilldown: "PrevejezMARQ"},
+    {name: "Vejez (65-79 años)",y: ciudades[6][1],z:ciudades[6][1]/totales[6]*100,color: '#1e4fd1',drilldown: "VejezMARQ"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[6][2],z:ciudades[6][2]/totales[6]*100,color: '#103bae',drilldown: "AncianidadMARQ"}
     ]},{id: 'Marulanda',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[7][0],z:ciudades[7][0]/totales[7]*100,color: '#54D6D6',drilldown: "PrevejezMARU"},
-    {name: "Vejez (65-79 años)",y: ciudades[7][1],z:ciudades[7][1]/totales[7]*100,color: '#F0C049',drilldown: "VejezMARU"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[7][2],z:ciudades[7][2]/totales[7]*100,color: '#F04971',drilldown: "AncianidadMARU"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[7][0],z:ciudades[7][0]/totales[7]*100,color: '#466fda',drilldown: "PrevejezMARU"},
+    {name: "Vejez (65-79 años)",y: ciudades[7][1],z:ciudades[7][1]/totales[7]*100,color: '#1e4fd1',drilldown: "VejezMARU"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[7][2],z:ciudades[7][2]/totales[7]*100,color: '#103bae',drilldown: "AncianidadMARU"}]},{
     id: 'Pensilvania',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[8][0],z:ciudades[8][0]/totales[8]*100,color: '#54D6D6',drilldown: "PrevejezPEN"},
-    {name: "Vejez (65-79 años)",y: ciudades[8][1],z:ciudades[8][1]/totales[8]*100,color: '#F0C049',drilldown: "VejezPEN"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[8][2],z:ciudades[8][2]/totales[9]*100,color: '#F04971',drilldown: "AncianidadPEN"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[8][0],z:ciudades[8][0]/totales[8]*100,color: '#466fda',drilldown: "PrevejezPEN"},
+    {name: "Vejez (65-79 años)",y: ciudades[8][1],z:ciudades[8][1]/totales[8]*100,color: '#1e4fd1',drilldown: "VejezPEN"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[8][2],z:ciudades[8][2]/totales[9]*100,color: '#103bae',drilldown: "AncianidadPEN"}]},{
     id: 'Anserma',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[9][0],z:ciudades[9][0]/totales[9]*100,color: '#54D6D6',drilldown: "PrevejezANS"},
-    {name: "Vejez (65-79 años)",y: ciudades[9][1],z:ciudades[9][1]/totales[9]*100,color: '#F0C049',drilldown: "VejezANS"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[9][2],z:ciudades[9][2]/totales[9]*100,color: '#F04971',drilldown: "AncianidadANS"}]},{
+    {name: "Prevejez (55-64 años)",y: ciudades[9][0],z:ciudades[9][0]/totales[9]*100,color: '#466fda',drilldown: "PrevejezANS"},
+    {name: "Vejez (65-79 años)",y: ciudades[9][1],z:ciudades[9][1]/totales[9]*100,color: '#1e4fd1',drilldown: "VejezANS"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[9][2],z:ciudades[9][2]/totales[9]*100,color: '#103bae',drilldown: "AncianidadANS"}]},{
     id: 'Belalcázar',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[10][0],z:ciudades[10][0]/totales[10]*100,color: '#54D6D6',drilldown: "PrevejezBEL"},
-    {name: "Vejez (65-79 años)",y: ciudades[10][1],z:ciudades[10][1]/totales[10]*100,color: '#F0C049',drilldown: "VejezBEL"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[10][2],z:ciudades[10][2]/totales[10]*100,color: '#F04971',drilldown: "AncianidadBEL"}
+    {name: "Prevejez (55-64 años)",y: ciudades[10][0],z:ciudades[10][0]/totales[10]*100,color: '#466fda',drilldown: "PrevejezBEL"},
+    {name: "Vejez (65-79 años)",y: ciudades[10][1],z:ciudades[10][1]/totales[10]*100,color: '#1e4fd1',drilldown: "VejezBEL"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[10][2],z:ciudades[10][2]/totales[10]*100,color: '#103bae',drilldown: "AncianidadBEL"}
     ]},{id: 'Risaralda',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[11][0],z:ciudades[11][0]/totales[11]*100,color: '#54D6D6',drilldown: "PrevejezRIS"},
-    {name: "Vejez (65-79 años)",y: ciudades[11][1],z:ciudades[11][1]/totales[11]*100,color: '#F0C049',drilldown: "VejezRIS"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[11][2],z:ciudades[11][2]/totales[11]*100,color: '#F04971',drilldown: "AncianidadRIS"}
+    {name: "Prevejez (55-64 años)",y: ciudades[11][0],z:ciudades[11][0]/totales[11]*100,color: '#466fda',drilldown: "PrevejezRIS"},
+    {name: "Vejez (65-79 años)",y: ciudades[11][1],z:ciudades[11][1]/totales[11]*100,color: '#1e4fd1',drilldown: "VejezRIS"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[11][2],z:ciudades[11][2]/totales[11]*100,color: '#103bae',drilldown: "AncianidadRIS"}
     ]},{id: 'San José',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[12][0],z:ciudades[12][0]/totales[12]*100,color: '#54D6D6',drilldown: "PrevejezSAN"},
-    {name: "Vejez (65-79 años)",y: ciudades[12][1],z:ciudades[12][1]/totales[12]*100,color: '#F0C049',drilldown: "VejezSAN"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[12][2],z:ciudades[12][2]/totales[12]*100,color: '#F04971',drilldown: "AncianidadSAN"}
+    {name: "Prevejez (55-64 años)",y: ciudades[12][0],z:ciudades[12][0]/totales[12]*100,color: '#466fda',drilldown: "PrevejezSAN"},
+    {name: "Vejez (65-79 años)",y: ciudades[12][1],z:ciudades[12][1]/totales[12]*100,color: '#1e4fd1',drilldown: "VejezSAN"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[12][2],z:ciudades[12][2]/totales[12]*100,color: '#103bae',drilldown: "AncianidadSAN"}
     ]},{id: 'Viterbo',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[13][0],z:ciudades[13][0]/totales[13]*100,color: '#54D6D6',drilldown: "PrevejezVIT"},
-    {name: "Vejez (65-79 años)",y: ciudades[13][1],z:ciudades[13][1]/totales[13]*100,color: '#F0C049',drilldown: "VejezVIT"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[13][2],z:ciudades[13][2]/totales[13]*100,color: '#F04971',drilldown: "AncianidadVIT"}
+    {name: "Prevejez (55-64 años)",y: ciudades[13][0],z:ciudades[13][0]/totales[13]*100,color: '#466fda',drilldown: "PrevejezVIT"},
+    {name: "Vejez (65-79 años)",y: ciudades[13][1],z:ciudades[13][1]/totales[13]*100,color: '#1e4fd1',drilldown: "VejezVIT"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[13][2],z:ciudades[13][2]/totales[13]*100,color: '#103bae',drilldown: "AncianidadVIT"}
     ]},{id: 'Chinchiná',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[14][0],z:ciudades[14][0]/totales[14]*100,color: '#54D6D6',drilldown: "PrevejezCHI"},
-    {name: "Vejez (65-79 años)",y: ciudades[14][1],z:ciudades[14][1]/totales[14]*100,color: '#F0C049',drilldown: "VejezCHI"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[14][2],z:ciudades[14][2]/totales[14]*100,color: '#F04971',drilldown: "AncianidadCHI"}
+    {name: "Prevejez (55-64 años)",y: ciudades[14][0],z:ciudades[14][0]/totales[14]*100,color: '#466fda',drilldown: "PrevejezCHI"},
+    {name: "Vejez (65-79 años)",y: ciudades[14][1],z:ciudades[14][1]/totales[14]*100,color: '#1e4fd1',drilldown: "VejezCHI"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[14][2],z:ciudades[14][2]/totales[14]*100,color: '#103bae',drilldown: "AncianidadCHI"}
     ]},{id: 'Manizales',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[15][0],z:ciudades[15][0]/totales[15]*100,color: '#54D6D6',drilldown: "PrevejezMANI"},
-    {name: "Vejez (65-79 años)",y: ciudades[15][1],z:ciudades[15][1]/totales[15]*100,color: '#F0C049',drilldown: "VejezMANI"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[15][2],z:ciudades[15][2]/totales[15]*100,color: '#F04971',drilldown: "AncianidadMANI"}
+    {name: "Prevejez (55-64 años)",y: ciudades[15][0],z:ciudades[15][0]/totales[15]*100,color: '#466fda',drilldown: "PrevejezMANI"},
+    {name: "Vejez (65-79 años)",y: ciudades[15][1],z:ciudades[15][1]/totales[15]*100,color: '#1e4fd1',drilldown: "VejezMANI"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[15][2],z:ciudades[15][2]/totales[15]*100,color: '#103bae',drilldown: "AncianidadMANI"}
     ]},{id: 'Neira',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[16][0],z:ciudades[16][0]/totales[16]*100,color: '#54D6D6',drilldown: "PrevejezNEI"},
-    {name: "Vejez (65-79 años)",y: ciudades[16][1],z:ciudades[16][1]/totales[16]*100,color: '#F0C049',drilldown: "VejezNEI"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[16][2],z:ciudades[16][2]/totales[16]*100,color: '#F04971',drilldown: "AncianidadNEI"}
+    {name: "Prevejez (55-64 años)",y: ciudades[16][0],z:ciudades[16][0]/totales[16]*100,color: '#466fda',drilldown: "PrevejezNEI"},
+    {name: "Vejez (65-79 años)",y: ciudades[16][1],z:ciudades[16][1]/totales[16]*100,color: '#1e4fd1',drilldown: "VejezNEI"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[16][2],z:ciudades[16][2]/totales[16]*100,color: '#103bae',drilldown: "AncianidadNEI"}
     ]},{id: 'Palestina',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[17][0],z:ciudades[17][0]/totales[17]*100,color: '#54D6D6',drilldown: "PrevejezPAL"},
-    {name: "Vejez (65-79 años)",y: ciudades[17][1],z:ciudades[17][1]/totales[17]*100,color: '#F0C049',drilldown: "VejezPAL"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[17][2],z:ciudades[17][2]/totales[17]*100,color: '#F04971',drilldown: "AncianidadPAL"}
+    {name: "Prevejez (55-64 años)",y: ciudades[17][0],z:ciudades[17][0]/totales[17]*100,color: '#466fda',drilldown: "PrevejezPAL"},
+    {name: "Vejez (65-79 años)",y: ciudades[17][1],z:ciudades[17][1]/totales[17]*100,color: '#1e4fd1',drilldown: "VejezPAL"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[17][2],z:ciudades[17][2]/totales[17]*100,color: '#103bae',drilldown: "AncianidadPAL"}
     ]},{id: 'Villamaría',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[18][0],z:ciudades[18][0]/totales[18]*100,color: '#54D6D6',drilldown: "PrevejezVIL"},
-    {name: "Vejez (65-79 años)",y: ciudades[18][1],z:ciudades[18][1]/totales[18]*100,color: '#F0C049',drilldown: "VejezVIL"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[18][2],z:ciudades[18][2]/totales[18]*100,color: '#F04971',drilldown: "AncianidadVIL"}
+    {name: "Prevejez (55-64 años)",y: ciudades[18][0],z:ciudades[18][0]/totales[18]*100,color: '#466fda',drilldown: "PrevejezVIL"},
+    {name: "Vejez (65-79 años)",y: ciudades[18][1],z:ciudades[18][1]/totales[18]*100,color: '#1e4fd1',drilldown: "VejezVIL"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[18][2],z:ciudades[18][2]/totales[18]*100,color: '#103bae',drilldown: "AncianidadVIL"}
     ]},{id: 'La Dorada',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[19][0],z:ciudades[19][0]/totales[19]*100,color: '#54D6D6',drilldown: "PrevejezLAD"},
-    {name: "Vejez (65-79 años)",y: ciudades[19][1],z:ciudades[19][1]/totales[19]*100,color: '#F0C049',drilldown: "VejezLAD"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[19][2],z:ciudades[19][2]/totales[19]*100,color: '#F04971',drilldown: "AncianidadLAD"}
+    {name: "Prevejez (55-64 años)",y: ciudades[19][0],z:ciudades[19][0]/totales[19]*100,color: '#466fda',drilldown: "PrevejezLAD"},
+    {name: "Vejez (65-79 años)",y: ciudades[19][1],z:ciudades[19][1]/totales[19]*100,color: '#1e4fd1',drilldown: "VejezLAD"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[19][2],z:ciudades[19][2]/totales[19]*100,color: '#103bae',drilldown: "AncianidadLAD"}
     ]},{id: 'Norcasia',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[20][0],z:ciudades[20][0]/totales[20]*100,color: '#54D6D6',drilldown: "PrevejezNOR"},
-    {name: "Vejez (65-79 años)",y: ciudades[20][1],z:ciudades[20][1]/totales[20]*100,color: '#F0C049',drilldown: "VejezNOR"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[20][2],z:ciudades[20][2]/totales[20]*100,color: '#F04971',drilldown: "AncianidadNOR"}
+    {name: "Prevejez (55-64 años)",y: ciudades[20][0],z:ciudades[20][0]/totales[20]*100,color: '#466fda',drilldown: "PrevejezNOR"},
+    {name: "Vejez (65-79 años)",y: ciudades[20][1],z:ciudades[20][1]/totales[20]*100,color: '#1e4fd1',drilldown: "VejezNOR"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[20][2],z:ciudades[20][2]/totales[20]*100,color: '#103bae',drilldown: "AncianidadNOR"}
     ]},{id: 'Samaná',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[21][0],z:ciudades[21][0]/totales[21]*100,color: '#54D6D6',drilldown: "PrevejezSAM"},
-    {name: "Vejez (65-79 años)",y: ciudades[21][1],z:ciudades[21][1]/totales[21]*100,color: '#F0C049',drilldown: "VejezSAM"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[21][2],z:ciudades[21][2]/totales[21]*100,color: '#F04971',drilldown: "AncianidadSAM"}
+    {name: "Prevejez (55-64 años)",y: ciudades[21][0],z:ciudades[21][0]/totales[21]*100,color: '#466fda',drilldown: "PrevejezSAM"},
+    {name: "Vejez (65-79 años)",y: ciudades[21][1],z:ciudades[21][1]/totales[21]*100,color: '#1e4fd1',drilldown: "VejezSAM"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[21][2],z:ciudades[21][2]/totales[21]*100,color: '#103bae',drilldown: "AncianidadSAM"}
     ]},{id: 'Victoria',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[22][0],z:ciudades[22][0]/totales[22]*100,color: '#54D6D6',drilldown: "PrevejezVIC"},
-    {name: "Vejez (65-79 años)",y: ciudades[22][1],z:ciudades[22][1]/totales[22]*100,color: '#F0C049',drilldown: "VejezVIC"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[22][2],z:ciudades[22][2]/totales[22]*100,color: '#F04971',drilldown: "AncianidadVIC"}
+    {name: "Prevejez (55-64 años)",y: ciudades[22][0],z:ciudades[22][0]/totales[22]*100,color: '#466fda',drilldown: "PrevejezVIC"},
+    {name: "Vejez (65-79 años)",y: ciudades[22][1],z:ciudades[22][1]/totales[22]*100,color: '#1e4fd1',drilldown: "VejezVIC"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[22][2],z:ciudades[22][2]/totales[22]*100,color: '#103bae',drilldown: "AncianidadVIC"}
     ]},{id: 'Aguadas',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[23][0],z:ciudades[23][0]/totales[23]*100,color: '#54D6D6',drilldown: "PrevejezAGU"},
-    {name: "Vejez (65-79 años)",y: ciudades[23][1],z:ciudades[23][1]/totales[23]*100,color: '#F0C049',drilldown: "VejezAGU"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[23][2],z:ciudades[23][2]/totales[23]*100,color: '#F04971',drilldown: "AncianidadAGU"}
+    {name: "Prevejez (55-64 años)",y: ciudades[23][0],z:ciudades[23][0]/totales[23]*100,color: '#466fda',drilldown: "PrevejezAGU"},
+    {name: "Vejez (65-79 años)",y: ciudades[23][1],z:ciudades[23][1]/totales[23]*100,color: '#1e4fd1',drilldown: "VejezAGU"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[23][2],z:ciudades[23][2]/totales[23]*100,color: '#103bae',drilldown: "AncianidadAGU"}
     ]},{id: 'Aranzazu',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[24][0],z:ciudades[24][0]/totales[24]*100,color: '#54D6D6',drilldown: "PrevejezARA"},
-    {name: "Vejez (65-79 años)",y: ciudades[24][1],z:ciudades[24][1]/totales[24]*100,color: '#F0C049',drilldown: "VejezARA"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[24][2],z:ciudades[24][2]/totales[24]*100,color: '#F04971',drilldown: "AncianidadARA"}
+    {name: "Prevejez (55-64 años)",y: ciudades[24][0],z:ciudades[24][0]/totales[24]*100,color: '#466fda',drilldown: "PrevejezARA"},
+    {name: "Vejez (65-79 años)",y: ciudades[24][1],z:ciudades[24][1]/totales[24]*100,color: '#1e4fd1',drilldown: "VejezARA"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[24][2],z:ciudades[24][2]/totales[24]*100,color: '#103bae',drilldown: "AncianidadARA"}
     ]},{id: 'Pácora',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[25][0],z:ciudades[25][0]/totales[25]*100,color: '#54D6D6',drilldown: "PrevejezPAC"},
-    {name: "Vejez (65-79 años)",y: ciudades[25][1],z:ciudades[25][1]/totales[25]*100,color: '#F0C049',drilldown: "VejezPAC"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[25][2],z:ciudades[25][2]/totales[25]*100,color: '#F04971',drilldown: "AncianidadPAC"}
+    {name: "Prevejez (55-64 años)",y: ciudades[25][0],z:ciudades[25][0]/totales[25]*100,color: '#466fda',drilldown: "PrevejezPAC"},
+    {name: "Vejez (65-79 años)",y: ciudades[25][1],z:ciudades[25][1]/totales[25]*100,color: '#1e4fd1',drilldown: "VejezPAC"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[25][2],z:ciudades[25][2]/totales[25]*100,color: '#103bae',drilldown: "AncianidadPAC"}
     ]},{id: 'Salamina',name: 'Rangos de edades',data: [
-    {name: "Prevejez (55-64 años)",y: ciudades[26][0],z:ciudades[26][0]/totales[26]*100,color: '#54D6D6',drilldown: "PrevejezSAL"},
-    {name: "Vejez (65-79 años)",y: ciudades[26][1],z:ciudades[26][1]/totales[26]*100,color: '#F0C049',drilldown: "VejezSAL"},
-    {name: "Ancianidad (80 años en adelante)",y: ciudades[26][2],z:ciudades[26][2]/totales[26]*100,color: '#F04971',drilldown: "AncianidadSAL"}]}]}});
+    {name: "Prevejez (55-64 años)",y: ciudades[26][0],z:ciudades[26][0]/totales[26]*100,color: '#466fda',drilldown: "PrevejezSAL"},
+    {name: "Vejez (65-79 años)",y: ciudades[26][1],z:ciudades[26][1]/totales[26]*100,color: '#1e4fd1',drilldown: "VejezSAL"},
+    {name: "Ancianidad (80 años en adelante)",y: ciudades[26][2],z:ciudades[26][2]/totales[26]*100,color: '#103bae',drilldown: "AncianidadSAL"}]}]}});
     }
 
 //-------------------------------------GRAFICO 2---------------------------------------------------------
@@ -361,8 +361,8 @@
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.percentage: .1f}%</b><br/>'},plotOptions: {
     variablepie: {allowPointSelect: true,cursor: 'pointer',dataLabels: {enabled: true},showInLegend: true}},series: [{
     minPointSize: 10,innerSize: '20%',zMin: 0,name: 'Estado civil',data: [{
-    name: 'Casado(a)',y: estC_1,z: 220}, {name: 'Soltero(a)',color: '#FF4747',y: estC_2,z: 180}, {name: 'Viudo(a)',
-    y: estC_3,z: 140}, {name: 'Separado(a) / Divorciado(a)',y: estC_4,z: 100}, {name: 'Religioso',y: estC_5,z: 60}]}]});
+    name: 'Casado(a)',y: estC_1,z: 220}, {name: 'Soltero(a)',color: '#103bae',y: estC_2,z: 180}, {name: 'Viudo(a)',color: '#4D7EFA',
+    y: estC_3,z: 140}, {name: 'Separado(a) / Divorciado(a)',color: '#3352A3',y: estC_4,z: 100}, {name: 'Religioso',color: '#4D7EFA',y: estC_5,z: 60}]}]});
     }
 //-------------------------------------GRAFICO 3---------------------------------------------------------
 
@@ -505,14 +505,14 @@ data: [
 name: "Masculino",
 y: mas,
 z:mas/tolGen*100,
-color: '#54D6D6',
+color: '#3f62bd',
 drilldown: "Masculino"
 },
 {
 name: "Femenino",
 y: fem,
 z:fem/tolGen*100,
-color: '#F04971',
+color: '#4D7EFA',
 drilldown: "Femenino"
 }
 ]
@@ -746,21 +746,21 @@ data: [
 name: "Prevejez (55-64 años)",
 y: r1,
 z:r1/tr*100,
-color: '#54D6D6',
+color: '#99B5FB',
 drilldown: "Prevejez"
 },
 {
 name: "Vejez (65-79 años)",
 y: r2,
 z:r2/tr*100,
-color: '#F0C049',
+color: '#4D7EFA',
 drilldown: "Vejez"
 },
 {
 name: "Ancianidad (80 años en adelante)",
 y: r3,
 z:r3/tr*100,
-color: '#F04971',
+color: '#3352A3',
 drilldown: "Ancianidad"
 }
 ]
@@ -1018,19 +1018,19 @@ series: [{
 name: 'Cantidad',
 data: [
 { name:'Analfabeta', 
-y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#FF4747' },
+y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#99B5FB' },
 { name:'Solamente aprendió a leer y escribir', 
-y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#FF9B47' },
+y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#4D7EFA' },
 { name:'Primaria incompleta', 
-y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#FFEE47' },
+y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#4F6BB1' },
 { name:'Primaria completa', 
-y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#47FF79' },
+y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#3352A3' },
 { name:'Secundaria incompleta', 
-y: levelEdu[4], z:levelEdu[4]/totalEdu*100, color: '#47FFD8' },
+y: levelEdu[4], z:levelEdu[4]/totalEdu*100, color: '#99B5FB' },
 { name:'Secundaria completa', 
-y: levelEdu[5], z:levelEdu[5]/totalEdu*100, color: '#4795FF' },
+y: levelEdu[5], z:levelEdu[5]/totalEdu*100, color: '#4D7EFA' },
 { name:'Universidad o equivalente', 
-y: levelEdu[6], z:levelEdu[6]/totalEdu*100, color: '#B947FF' }  
+y: levelEdu[6], z:levelEdu[6]/totalEdu*100, color: '#4F6BB1' }  
 ]
 // color:'#2BD85D'
 }]
@@ -1140,17 +1140,19 @@ zMin: 0,
 name: 'Afiliación al sistema de seguridad social',
 data: [{
 name: 'Contributivo',
+color: '#99B5FB',
 y: estC_1,
 z: 220
 
 }, {
 name: 'Subsidiado',
-color: '#FF4747',
+color: '#4D7EFA',
 y: estC_2,
 z: 180
 
 }, {
 name: 'Vinculado',
+color: '#4F6BB1',
 y: estC_3,
 z: 140
 
@@ -1267,32 +1269,37 @@ zMin: 0,
 name: 'Estrato Socioeconómico',
 data: [{
 name: 'Estrato 1',
+color: '#99B5FB',
 y: stratum[0],
 z: 40
 
 }, {
 name: 'Estrato 2',
-color: '#FF4747',
+color: '#4D7EFA',
 y: stratum[1],
 z: 80
 
 }, {
 name: 'Estrato 3',
+color: '#4F6BB1',
 y: stratum[2],
 z: 120
 
 }, {
 name: 'Estrato 4',
+color: '#3352A3',
 y: stratum[3],
 z: 160
 
 }, {
 name: 'Estrato 5',
+color: '#99B5FB',
 y: stratum[4],
 z: 200
 
 }, {
 name: 'Estrato 6',
+color: '#4D7EFA',
 y: stratum[5],
 z: 240
 
@@ -1442,13 +1449,13 @@ series: [{
 name: 'Cantidad',
 data: [
 { name:'Menos de un SMLV', 
-y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#FF4747' },
+y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#99B5FB' },
 { name:'Un SMLV',
-y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#FF9B47' },
+y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#4D7EFA' },
 { name:'Entre uno y tres SMLV', 
-y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#FFEE47' },
+y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#4F6BB1' },
 { name:'Más de tres SMLV',
-y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#47FF79' }
+y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#3352A3' }
 
 
 ]
@@ -1617,25 +1624,25 @@ series: [{
 name: 'Cantidad',
 data: [
 { name: 'Trabajo actual',
-y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#FF4747' },
+y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#99B5FB' },
 { name: 'Retiro o pensión',
-y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#FF9B47' },
+y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#4D7EFA' },
 { name: 'Ayuda de familiares (Extranjero) ',
-y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#FFEE47' },
+y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#4F6BB1' },
 { name: 'Ayuda de familiares (Colombia) ',
-y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#47FF79' },
+y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#3352A3' },
 { name: 'Rentas',
-y: levelEdu[4], z:levelEdu[4]/totalEdu*100, color: '#B947FF' },
+y: levelEdu[4], z:levelEdu[4]/totalEdu*100, color: '#99B5FB' },
 { name: 'Subsidios de gobierno',
-y: levelEdu[5], z:levelEdu[5]/totalEdu*100, color: '#FF4747' },
+y: levelEdu[5], z:levelEdu[5]/totalEdu*100, color: '#4D7EFA' },
 { name: 'Otro',
-y: levelEdu[6], z:levelEdu[6]/totalEdu*100, color: '#FF9B47' },
+y: levelEdu[6], z:levelEdu[6]/totalEdu*100, color: '#4F6BB1' },
 { name: 'No recibe ingresos',
-y: levelEdu[7], z:levelEdu[7]/totalEdu*100, color: '#FFEE47' },
+y: levelEdu[7], z:levelEdu[7]/totalEdu*100, color: '#3352A3' },
 { name: 'No sabe',
-y: levelEdu[8], z:levelEdu[8]/totalEdu*100, color: '#47FF79' },
+y: levelEdu[8], z:levelEdu[8]/totalEdu*100, color: '#99B5FB' },
 { name: 'No responde',
-y: levelEdu[9], z:levelEdu[9]/totalEdu*100, color: '#B947FF' }
+y: levelEdu[9], z:levelEdu[9]/totalEdu*100, color: '#4D7EFA' }
 
 ]
 
@@ -1758,19 +1765,19 @@ enabled: false
 series: [{
 name: 'Muchos',
 // data: [3, 18, 5, 10, 21, 12,7],
-color:'#FF4747'
+color:'#99B5FB'
 },{
 name: 'Algunos',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#FFEB47'
+color: '#4D7EFA'
 },{
 name: 'Ninguno',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#47FFFC'
+color: '#4F6BB1'
 },{
 name: 'No sabe',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#B147FF'
+color: '#3352A3'
 }]
 });
 
@@ -1965,19 +1972,19 @@ enabled: false
 series: [{
 name: 'Muchos problemas',
 // data: [3, 18, 5, 10, 21, 12,7],
-color:'#FC47FF'
+color:'#99B5FB'
 },{
 name: 'Pocos Problemas',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#4755FF'
+color: '#4D7EFA'
 },{
 name: 'No es un problema',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#FF9B47'
+color: '#4F6BB1'
 },{
 name: 'No sabe',
 // data: [4, 19, 15, 8, 15, 12,9],
-color: '#5DFF47'
+color: '#3352A3'
 }]
 });
 
@@ -2197,7 +2204,7 @@ enabled: false
 series: [{
 name: 'Mayor distancia recorrida',
 // data: [3,4,2,5,3,6,4],
-color:'#A347FF'
+color:'#3352A3'
 }]
 });
 var centimetros= [];
@@ -2214,7 +2221,7 @@ row_2.series[0].setData(centimetros);
 
 else if(document.getElementById('gra_14')){
 
-var con_14 = <?php echo json_encode($consulta_14 ?? '') ?>
+var con_14 = <?php echo json_encode($consulta_14 ?? '') ?>;
 
 var dispe_3=Highcharts.chart('gra_14', {
 chart: {
@@ -2336,7 +2343,7 @@ pointFormat:
 },
 series: [{
 name: 'Equilibrio',
-color: '#7C47FF'
+color: '#3352A3'
 }]
 });
 
@@ -2361,8 +2368,7 @@ dispe_3.series[0].setData(imc);
 
 else if(document.getElementById('gra_15')){
 
-var con_15 = <?php echo json_encode($consulta_15 ?? '') ?>
-
+var con_15 = <?php echo json_encode($consulta_15 ?? '') ?>;
 var dispe_4=Highcharts.chart('gra_15', {
 chart: {
 type: 'scatter',
@@ -2483,14 +2489,10 @@ pointFormat:
 },
 series: [{
 name: 'Puntaje E-SPPB',
-color: '#FF5247'
+color: '#3352A3'
 
 }]
 });
-
-
-
-
 
 var imc= [];
 
@@ -2637,11 +2639,11 @@ enabled: false
 series: [{
 name: 'Hombres',
 data: [siC[0], noC[0]],
-color:'#2BD85D'
+color:'#3352A3'
 },{
 name: 'Mujeres',
 data: [siC[1], noC[1]],
-color: '#D631FF'
+color: '#99B5FB'
 }]
 });
 }
@@ -2776,11 +2778,11 @@ enabled: false
 series: [{
 name: 'Hombres',
 data: [siC[0], noC[0]],
-color:'#474DFF'
+color:'#3352A3'
 },{
 name: 'Mujeres',
 data: [siC[1], noC[1]],
-color: '#FF4747'
+color: '#99B5FB'
 }]
 });
 }
@@ -2918,7 +2920,7 @@ enabled: false},
 series: [{
 name: 'Cantidad',
 data: [SiRitmos[0],SiRitmos[1],SiRitmos[2],SiRitmos[3],SiRitmos[4]],
-color:'#FFC247'
+color:'#99B5FB'
 }]});
 }
 

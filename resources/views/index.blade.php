@@ -411,10 +411,10 @@
     pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.z: .1f}%</b><br/>'},
     series: [{name: 'Cantidad',data: [{ name:'Menos de un SMLV', 
-    y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#FF4747' },{ name:'Un SMLV',
-    y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#FF9B47' },{ name:'Entre uno y tres SMLV', 
-    y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#FFEE47' },{ name:'Más de tres SMLV',
-    y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#47FF79' }]}]});
+    y: levelEdu[0], z:levelEdu[0]/totalEdu*100, color: '#99B5FB' },{ name:'Un SMLV',
+    y: levelEdu[1], z:levelEdu[1]/totalEdu*100, color: '#4D7EFA' },{ name:'Entre uno y tres SMLV', 
+    y: levelEdu[2], z:levelEdu[2]/totalEdu*100, color: '#4F6BB1' },{ name:'Más de tres SMLV',
+    y: levelEdu[3], z:levelEdu[3]/totalEdu*100, color: '#3352A3' }]}]});
 
     //-------------------------------NIVEL DE EDUCACIÓN---------------------------------------------------------------
     var con_5 =<?php echo json_encode($aspD) ?>;var levelEduM=[0,0,0,0,0,0,0];var levelEduF=[0,0,0,0,0,0,0];var totalEduM=0;var totalEduF=0;
@@ -444,8 +444,8 @@
     plotOptions: {bar: {dataLabels: {enabled: true}}},legend: {layout: 'vertical',align: 'left',
     verticalAlign: 'bottom',x: 0,y: 0,floating: true,borderWidth: 0,backgroundColor:
     Highcharts.defaultOptions.legend.backgroundColor || 'white',shadow: true},credits: {enabled: false},
-    series: [{name: 'Hombres',color:'#2BD85D',data: [levelEduM[0],levelEduM[1],levelEduM[2],levelEduM[3],
-    levelEduM[4],levelEduM[5],levelEduM[6]]},{name: 'Mujeres',color: '#D631FF',data: [levelEduF[0],
+    series: [{name: 'Hombres',color:'#3352A3',data: [levelEduM[0],levelEduM[1],levelEduM[2],levelEduM[3],
+    levelEduM[4],levelEduM[5],levelEduM[6]]},{name: 'Mujeres',color: '#99B5FB',data: [levelEduF[0],
     levelEduF[1],levelEduF[2],levelEduF[3],levelEduF[4],levelEduF[5],levelEduF[6]]}]});
 
     // ------------------------------------ACTIVIDAD FISICA------------------------------------------------
@@ -467,7 +467,7 @@
     align: 'left',verticalAlign: 'bottom',x: 0,y: 0,floating: true,borderWidth: 0,backgroundColor:
     Highcharts.defaultOptions.legend.backgroundColor || 'white',shadow: false,enabled: false},credits: {
     enabled: false},series: [{name: 'Cantidad',data: [SiRitmos[0],SiRitmos[1],SiRitmos[2],SiRitmos[3],SiRitmos[4]],
-    color:'#FFC247'}]});
+    color:'#4F6BB1'}]});
 
     // --------------------------------------CIGARRULLO CONSUMO----------------------------------------------------
     var con_16 =<?php echo json_encode($aspD) ?>;var siC=[0,0];var noC=[0,0];
@@ -485,8 +485,8 @@
     title: {text: 'Personas',align: 'high'},labels: {overflow: 'justify'}},plotOptions: {bar: {dataLabels: {
     enabled: true}}},legend: {layout: 'horizontal',align: 'left',verticalAlign: 'bottom',x: 0,y: 0,floating: true,
     borderWidth: 0,backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || 'transparent',shadow: false
-    },credits: {enabled: false},series: [{name: 'Hombres',data: [siC[0], noC[0]],color:'#2BD85D'},{
-    name: 'Mujeres',data: [siC[1], noC[1]],color: '#D631FF'}]});
+    },credits: {enabled: false},series: [{name: 'Hombres',data: [siC[0], noC[0]],color:'#3352A3'},{
+    name: 'Mujeres',data: [siC[1], noC[1]],color: '#99B5FB'}]});
 
     // --------------------------------------ALCOHOL CONSUMO----------------------------------------------------
     var con_17 = <?php echo json_encode($aspD) ?>;var siC=[0,0];var noC=[0,0];
@@ -504,8 +504,8 @@
     title: {text: 'Personas',align: 'high'},labels: {overflow: 'justify'}},plotOptions: {bar: {dataLabels: {
     enabled: true}}},legend: {layout: 'horizontal',align: 'left',verticalAlign: 'bottom',x: 0,y: 0,floating: true,
     borderWidth: 0,backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || 'transparent',shadow: false},
-    credits: {enabled: false},series: [{name: 'Hombres',data: [siC[0], noC[0]],color:'#474DFF'},{name: 'Mujeres',
-    data: [siC[1], noC[1]],color: '#FF4747'}]});
+    credits: {enabled: false},series: [{name: 'Hombres',data: [siC[0], noC[0]],color:'#3352A3'},{name: 'Mujeres',
+    data: [siC[1], noC[1]],color: '#99B5FB'}]});
 
     //---------------------------------ALCANCE FUNCIONAL (MAYOR EN CM)--------------------------------------
     
@@ -524,7 +524,7 @@
     connectorAllowed: false},pointStart: 1}},legend: {layout: 'vertical',align: 'left',verticalAlign: 'bottom',
     x: 0,y: 0,floating: true,borderWidth: 0,backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || 'white',
     shadow: false,enabled: false},credits: {enabled: false},series: [{name: 'Mayor distancia recorrida',
-    color:'#A347FF'}]});var centimetros= [];var cm;for (var i in g_alF) {cm=parseInt(g_alF[i]['mayor_distance']);
+    color:'#4F6BB1'}]});var centimetros= [];var cm;for (var i in g_alF) {cm=parseInt(g_alF[i]['mayor_distance']);
     centimetros.push(cm);}row_2.series[0].setData(centimetros);
 
     //---------------------------------ENTORNO CONSTRUIDO--------------------------------------
@@ -540,8 +540,8 @@
     min: 0,tickInterval: 1,title: {text: 'Persona',align: 'high'},labels: {overflow: 'justify'}},plotOptions: {
     bar: {dataLabels: {enabled: true}}},legend: {layout: 'horizontal',align: 'left',verticalAlign: 'bottom',
     x: 0,y: 0,floating: true,borderWidth: 0,backgroundColor:Highcharts.defaultOptions.legend.backgroundColor || 'white',
-    shadow: false},credits: {enabled: false},series: [{name: 'Muchos',color:'#FF4747'},{name: 'Algunos',color: '#FFEB47'},{
-    name: 'Ninguno',color: '#47FFFC'},{name: 'No sabe',color: '#B147FF'}]});
+    shadow: false},credits: {enabled: false},series: [{name: 'Muchos',color:'#99B5FB'},{name: 'Algunos',color: '#4D7EFA'},{
+    name: 'Ninguno',color: '#4F6BB1'},{name: 'No sabe',color: '#3352A3'}]});
     var g_buE = <?php echo json_encode($buE) ?>;var q1=[],q2=[],q3=[],q4=[];
     for (let index = 0; index <7; index++) {q1[index]=0;q2[index]=0;q3[index]=0;q4[index]=0;}
     for (let i in g_buE) {if (g_buE[i]['name'] == 'question_have') {if (g_buE[i]['id'] == 1) {
@@ -580,7 +580,7 @@
     },labels: {overflow: 'justify'}},plotOptions: {bar: {dataLabels: {enabled: true}}},legend: {layout: 'horizontal',align: 'left',
     verticalAlign: 'bottom',x: 0,y: 15,floating: true,borderWidth: 0,backgroundColor:
     Highcharts.defaultOptions.legend.backgroundColor || 'transparent',shadow: false},credits: {enabled: false},series: [{name: 'Muchos problemas',
-    color:'#FC47FF'},{name: 'Pocos problemas',color: '#4755FF'},{name: 'No es un problema',color: '#FF9B47'},{name: 'No sabe',color: '#5DFF47'}]});
+    color:'#99B5FB'},{name: 'Pocos problemas',color: '#4D7EFA'},{name: 'No es un problema',color: '#4F6BB1'},{name: 'No sabe',color: '#3352A3'}]});
     var g_buE = <?php echo json_encode($buE) ?>;q1=[],q2=[],q3=[],q4=[];for (let index = 0; index <10; index++) {q1[index]=0;q2[index]=0;q3[index]=0;
     q4[index]=0;}for (let i in g_buE) {if (g_buE[i]['name'] == 'question_problem') {if (g_buE[i]['id'] == 8) {
     if(g_buE[i]['answer']=='Muchos problemas'){q1[0]++;}else if(g_buE[i]['answer']=='Pocos problemas'){q2[0]++;}
@@ -634,9 +634,9 @@
     plotOptions: {series: {borderWidth: 0,dataLabels: {enabled: true,format: '{point.z:.1f}%'}}},tooltip: {
     headerFormat: '',pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.z: .1f}%</b><br/>'},series: [{name: "Rangos de edades",
-    colorByPoint: true,data: [{name: "De 55 a 64 años",y: r1,z:r1/tr*100,color: '#54D6D6',drilldown: "Prevejez"
-    },{name: "De 65 a 79 años",y: r2,z:r2/tr*100,color: '#F0C049',drilldown: "Vejez"},{
-    name: "De 80 años en adelante",y: r3,z:r3/tr*100,color: '#F04971',drilldown: "Ancianidad"}]}],
+    colorByPoint: true,data: [{name: "De 55 a 64 años",y: r1,z:r1/tr*100,color: '#99B5FB',drilldown: "Prevejez"
+    },{name: "De 65 a 79 años",y: r2,z:r2/tr*100,color: '#4D7EFA',drilldown: "Vejez"},{
+    name: "De 80 años en adelante",y: r3,z:r3/tr*100,color: '#3352A3',drilldown: "Ancianidad"}]}],
     drilldown: {series: [{name: "Prevejez",id: "Prevejez",data: [{name: "55 años",y: v1['55'],z: v1['55']/r1*100
     },{name: "56 años",y: v1['56'],z: v1['56']/r1*100},{name: "57 años",y: v1['57'],z: v1['57']/r1*100},{
     name: "58 años",y: v1['58'],z: v1['58']/r1*100},{name: "59 años",y: v1['59'],z: v1['59']/r1*100},{
@@ -662,7 +662,7 @@
     //                                      GRAFICOS DE DISPERSION                                       //
     //---------------------------------------------------------------------------------------------------//
 
-    //------------------------------------------TEST MINI-MENTAL------------------------------------------------
+    // ------------------------------------------TEST MINI-MENTAL------------------------------------------------
     var dis_1 = Highcharts.chart('Hdispersion1', {chart: {type: 'scatter',zoomType: 'xy'},accessibility: {
     description: 'none'},title: {useHTML: true,text: 'Test Mini-Mental',style: {color: 'white',
     'background-color': 'royalblue',padding: '5px 5% 5px 5%',zIndex:'0',borderRadius:'5px 5px',
@@ -677,7 +677,7 @@
     plotOptions: {scatter: {marker: {radius: 5,states: {hover: {enabled: true,lineColor: 'rgb(100,100,100)'
     }}},states: {hover: {marker: {enabled: false}}},tooltip: {headerFormat: '<b>{series.name}</b><br>',
     pointFormat: 'Paciente: <b>{point.y}</b><br/>'+'Puntaje: <b>{point.x}</b><br/>'}}},series: [{name: 'Hombres',
-    color: '#54D6D6'}, {name: 'Mujeres',color: '#F04971'}]});var gd_1 = <?php echo json_encode($g2) ?>;
+    color: '#3352A3'}, {name: 'Mujeres',color: '#99B5FB'}]});var gd_1 = <?php echo json_encode($g2) ?>;
     var female= [];var male= [];var m;var f;var con=1;for (var i in gd_1) {if (gd_1[i]['gender'] == 'Masculino') {
     m=parseInt(gd_1[i]['final_score']);male.push([m,con]);con++;} else if (gd_1[i]['gender'] == 'Femenino') {
     f=parseInt(gd_1[i]['final_score']);female.push([f,con]);con++;}}dis_1.series[1].setData(female);dis_1.series[0].setData(male);
@@ -697,7 +697,7 @@
     borderWidth: 0,enabled: false},plotOptions: {scatter: {marker: {radius: 5,states: {hover: {enabled: true,
     lineColor: 'rgb(100,100,100)'}}},states: {hover: {marker: {enabled: false}}},tooltip: {
     headerFormat: '<b>{series.name}</b><br>',pointFormat: 'Peso: <b>{point.y} kg</b><br/>' +'Estatura: <b>{point.x} cm</b><br/>'
-    }}},series: [{name: 'Medidas',color: '#54D6D6'}]});var userIMC = <?php echo json_encode($aspD) ?>;var imc= [];
+    }}},series: [{name: 'Medidas',color: '#4f71cb'}]});var userIMC = <?php echo json_encode($aspD) ?>;var imc= [];
     var p;var a;for (var i in userIMC) {a=parseInt(userIMC[i]['size']);p=parseInt(userIMC[i]['weight']);
     imc.push([a,p]);}line_1.series[0].setData(imc);
 
@@ -716,7 +716,8 @@
     shadow: true,borderWidth: 0,enabled: false},plotOptions: {scatter: {marker: {radius: 5,states: {hover: {
     enabled: true,lineColor: 'rgb(100,100,100)'}}},states: {hover: {marker: {enabled: false}}},tooltip: {
     headerFormat: '<b>{series.name}</b><br>',pointFormat: 'Persona: <b>{point.x} </b><br/>'+'Puntaje: <b>{point.y} </b><br/>'
-    }}},series: [{name: 'Puntaje E-SPPB',color: '#FF5247'}]});var e_sppb = <?php echo json_encode($aspD) ?>;
+    }}},series: [{name: 'Puntaje E-SPPB',color: '#99B5FB'}]});var e_sppb = <?php echo json_encode($e_sppb) ?>;
+    console.log(e_sppb);
     var imc= [];var a;var cont=1;for (var i in e_sppb) {a=parseInt(e_sppb[i]['score']);imc.push([cont,a]);      
     cont++;}dispe_4.series[0].setData(imc);
 
@@ -737,8 +738,8 @@
     tooltip: {headerFormat: '',pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> {point.name}</b><br/>' +
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.percentage: .1f}%</b><br/>'},
     plotOptions: {pie: {allowPointSelect: true,cursor: 'pointer',dataLabels: {enabled: true},showInLegend: true
-    }},series: [{innerSize: '50%',zMin: 0,name: 'sexo',data: [{name: 'Masculino',color:'#2BD85D',
-    y: mas}, {name: 'Femenino',color: '#D631FF',y: fem}]}]});
+    }},series: [{innerSize: '50%',zMin: 0,name: 'sexo',data: [{name: 'Masculino',color:'#3352A3',
+    y: mas}, {name: 'Femenino',color: '#99B5FB',y: fem}]}]});
     
 
     //---------------------------------------------ESTRATO------------------------------------------------
@@ -757,7 +758,7 @@
     'Cantidad: <b>{point.y}</b><br/>' +'Porcentaje: <b>{point.percentage: .1f}%</b><br/>'},plotOptions: {
     variablepie: {allowPointSelect: true,cursor: 'pointer',dataLabels: {enabled: true},showInLegend: true}},
     series: [{minPointSize: 10,innerSize: '20%',zMin: 0,name: 'Estrato Socioeconómico',data: [{
-    name: 'Estrato 1',y: stratum[0],z: 40}, {name: 'Estrato 2',color: '#FF4747',y: stratum[1],z: 80}, {
-    name: 'Estrato 3',y: stratum[2],z: 120}, {name: 'Estrato 4',y: stratum[3],z: 160}, {name: 'Estrato 5',
-    y: stratum[4],z: 200}, {name: 'Estrato 6',y: stratum[5],z: 240}]}]});
+    name: 'Estrato 1',color: '#99B5FB',y: stratum[0],z: 40}, {name: 'Estrato 2',color: '#3060dc',y: stratum[1],z: 80}, {
+    name: 'Estrato 3',color: '#153894',y: stratum[2],z: 120}, {name: 'Estrato 4',color: '#4D7EFA',y: stratum[3],z: 160}, {
+    name: 'Estrato 5',color: '#4F6BB1',y: stratum[4],z: 200}, {name: 'Estrato 6',color: '#3352A3',y: stratum[5],z: 240}]}]});
 </script>
